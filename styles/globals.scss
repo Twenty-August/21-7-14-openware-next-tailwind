@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// General
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: MetroSans-Regular, "Open Sans";
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+  color: #0D1017;
+}
+
+* {
+  box-sizing: border-box;
+}
